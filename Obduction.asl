@@ -6,5 +6,5 @@ state("Obduction-Win64-Shipping")
 
 isLoading
 {
-	return (loadingA || (loadingB == 256));
+	return (current.loadingA || (current.loadingB == 256));
 }
